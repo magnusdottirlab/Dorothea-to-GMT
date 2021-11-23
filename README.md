@@ -29,10 +29,10 @@ The file dorothea.R uses the dorothea R library to read in the dataset which is 
 
 and the script rearranges it like this: 
 
-|TF|Description |Targets| | | | | | | | | | |
-|--|------------|-------|--|--|--|--|--|--|--|--|--|--|--|
-|Ahr|  1     |Cyp1a1|Cyp1a2|Cyp1b1|Fos|Myc|Ugt1a7c|Ugt1a6a|Ugt1a6b|Asap1|Erg|Vgll4|
-|Ar |  2     |Abce1|Acad12|Acad10|Ahsg|Akr1b3|Akr1b3|Akt1|Anapc10|Ap2m1|Appbp2|
+|TF |Description|Targets|      |      |    |      |       |       |       |     |      |     |
+|---|-----------|-------|------|------|----|------|-------|-------|-------|-----|------|-----|
+|Ahr|  1        |Cyp1a1 |Cyp1a2|Cyp1b1|Fos |Myc   |Ugt1a7c|Ugt1a6a|Ugt1a6b|Asap1|Erg   |Vgll4|
+|Ar |  2        |Abce1  |Acad12|Acad10|Ahsg|Akr1b3|Akr1b3 |Akt1   |Anapc10|Ap2m1|Appbp2|     |   
 
 The user can easily select the desired confidence level. See dorothea's [paper](https://genome.cshlp.org/content/29/8/1363) or the comments in the script for what each confidence level signifies. 
 
