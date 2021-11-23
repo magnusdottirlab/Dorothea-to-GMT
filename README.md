@@ -36,7 +36,7 @@ and the script rearranges it like this:
 
 The user can easily select the desired confidence level. See dorothea's [paper](https://genome.cshlp.org/content/29/8/1363) or the comments in the script for what each confidence level signifies. 
 
-The supplied gmt file in this repository contains TF-Target interactions with A, B, C, and D grades. 
+The supplied gmt files in this repository contains TF-Target interactions with A, B, C, and D grades. 
 
 Dorothea only supports mouse and human. The code required for both is in the script, simply comment/uncomment the one you don't need. 
 
