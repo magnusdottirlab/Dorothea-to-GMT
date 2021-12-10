@@ -1,6 +1,9 @@
 # Dorothea-to-GMT
 This script takes the latest [dorothea](https://saezlab.github.io/dorothea/) dataset of Transcription Factor-Target interactions and transposes it into a .gmt file 
-suitable for The Broad/UCSD's [GSEA](https://www.gsea-msigdb.org/gsea/index.jsp) program. GSEA is an alternative to the recommended tool VIPER. 
+suitable for The Broad/UCSD's [GSEA](https://www.gsea-msigdb.org/gsea/index.jsp) program. GSEA is an alternative to the more commonly used tool VIPER. 
+
+Dorothea allows you to infer TF activity from gene expression data by not looking at the gene expression of the TFs itself but the expression of their direct 
+transcriptional targets. This yields a list of the presumed transcription factors responsible for the temporal change of gene expression for each condition. 
 
 The file dorothea.R uses the dorothea R library to read in the dataset which is formatted as follows: 
 
